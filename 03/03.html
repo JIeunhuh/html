@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-digital 3기 허지은</title>
+    <link rel="stylesheet" type="text/css" href="./03.css" /> <!--외부 스타일시트 가져오기-->
+</head>
+
+<!--시멘틱 태그 : 태그를 잡을때 컨텐츠에 의미를 부여시킴-->
+
+<body><!--body 3개로 설정 ;header , main, footer-->
+    <header>
+        <nav> <!-- navigation  //menu 영역-->
+            <ul>
+                <li><a href="#a2">개인정보</a></li><!--id를 링크로 걸때 앞에 # 붙여야 함-->
+                <li><a href="#a3">학력 사항</a></li>
+                <li><a href="#a4">사용 가능 언어</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="a1" class="c1"><!--article태그로도 할 수 있음-->
+            <!--태그 영역을 구분하는 속성 : id 속성(중복되면 안됨!)!-->
+            <div>
+                <img src="../IMAGE/HJE_IMAGE.jpg"  />
+                <!--인라인 태그-->
+            </div>
+ 
+        </article>
+
+        <article id="a2" class="c2">
+            <h1>개인정보</h1><!--h태그 : 블록 태그-->
+            <!-- css : 태그 옆에 속성으로 붙일 수 있음 ex. style=""-->
+            <ul>
+                <li>허지은</li>
+                <li>010-3xxx-xxxx</li>
+                <li><span style="background-color: yellow;">entks301@naver.com</span></li>
+                <li>부산시 동래구 온천장</li>
+                <!-- span 태그 ; 설정한 부분만 박스를 만듦(인라인 태그)-->
+            </ul>
+        </article>
+
+        <article id="a3" class="c3">
+            <h1>학력사항</h1>
+            <ul>
+                <li>2015 ~ 2018 고등학교 졸업</li>
+                <li>2018 ~ 2022 대학교 졸업</li>
+            </ul>
+        </article>
+
+        <article id="a4" class="c4">
+            <h1>사용 가능 언어</h1>
+            <ul>
+                <li>HTML/CSS/JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ul>
+        </article>
+
+        <a href="../index.html"><!-- 절대경로 쓰면 안됨 / 상대경로 사용 -->
+            이전 <!-- 상위폴더 ../path & 하위폴더 ./path -->
+        </a>
+    </main>
+    <footer>
+        <br/>부산대학교 K-digital 3기
+    </footer>
+</body>
+
+</html>
