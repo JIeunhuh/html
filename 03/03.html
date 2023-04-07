@@ -6,7 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K-digital 3기 허지은</title>
-    <link rel="stylesheet" type="text/css" href="./03.css" /> <!--외부 스타일시트 가져오기-->
+    <link rel="stylesheet" type="text/css" href="./03.css" /> <!--외부 스타일시트 
+        가져오기-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap" rel="stylesheet">
+    <!--font link 복사해오기 ; header에 링크 붙여넣기-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!--icon link ; home 아이콘-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- header menu 아이콘-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- a2 아이콘-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- a3 아이콘-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- a4 아이콘-->
+
 </head>
 
 <!--시멘틱 태그 : 태그를 잡을때 컨텐츠에 의미를 부여시킴-->
@@ -14,6 +35,9 @@
 <body><!--body 3개로 설정 ;header , main, footer-->
     <header>
         <nav> <!-- navigation  //menu 영역-->
+            <span><span class="material-symbols-outlined">
+                    menu
+                </span></span>
             <ul>
                 <li><a href="#a2">개인정보</a></li><!--id를 링크로 걸때 앞에 # 붙여야 함-->
                 <li><a href="#a3">학력 사항</a></li>
@@ -25,13 +49,16 @@
         <article id="a1" class="c1"><!--article태그로도 할 수 있음-->
             <!--태그 영역을 구분하는 속성 : id 속성(중복되면 안됨!)!-->
             <div>
-                <img src="../IMAGE/HJE_IMAGE.jpg"  />
+                <img src="../IMAGE/HJE_IMAGE.jpg" />
                 <!--인라인 태그-->
             </div>
- 
+
         </article>
 
         <article id="a2" class="c2">
+            <span class="info1"><span class="material-symbols-outlined">
+                    account_circle
+                </span></span>
             <h1>개인정보</h1><!--h태그 : 블록 태그-->
             <!-- css : 태그 옆에 속성으로 붙일 수 있음 ex. style=""-->
             <ul>
@@ -44,6 +71,9 @@
         </article>
 
         <article id="a3" class="c3">
+            <span class="info2"><span class="material-symbols-outlined">
+                checklist
+                </span></span>
             <h1>학력사항</h1>
             <ul>
                 <li>2015 ~ 2018 고등학교 졸업</li>
@@ -52,6 +82,9 @@
         </article>
 
         <article id="a4" class="c4">
+            <span class="info3"><span class="material-symbols-outlined">
+                    language
+                </span></span>
             <h1>사용 가능 언어</h1>
             <ul>
                 <li>HTML/CSS/JavaScript</li>
@@ -60,12 +93,14 @@
             </ul>
         </article>
 
-        <a href="../index.html"><!-- 절대경로 쓰면 안됨 / 상대경로 사용 -->
-            이전 <!-- 상위폴더 ../path & 하위폴더 ./path -->
+        <span class="icon"> <!--span class="material-symbols-outlined" -->
+            <a href="../index.html"><!-- 절대경로 쓰면 안됨 / 상대경로 사용 -->
+           이전 <!-- 상위폴더 ../path & 하위폴더 ./path -->
         </a>
+            </span>
     </main>
     <footer>
-        <br/>부산대학교 K-digital 3기
+        <br />부산대학교 K-digital 3기
     </footer>
 </body>
 

@@ -1,4 +1,5 @@
 /* 박스 모델 : margin(다른 박스와의 간격) padding(content box사이와의 간격) border(테두리 영역) */
+
 h1 {
     /*selector*/
     background-color: aliceblue;
@@ -10,9 +11,10 @@ h1 {
     /*전체 영역 : * */
     margin: 0px;
     padding: 0px;
+    font-family: 'Schibsted Grotesk', sans-serif; /*내가 원하는 곳에 font-family 붙여넣기*/
 
 }
-header{
+header{ 
     top:0px;
     left: 0px;
     position: sticky; /*header안의 position 고정 시킴*/
@@ -25,6 +27,13 @@ nav {
     justify-content: center; /*중심에 대한 직선축*/
     align-items: center; /*중심에 대한 수직축*/
 
+
+}
+nav span{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main{
     display: flex;
@@ -58,7 +67,7 @@ nav a {
 
 nav a:hover,
 nav li:hover {
-    /* :hover -> 마우스를 갖다댔을 때 바꿀 수 있음*/
+    /* :hover -> 마우스를 갖다댔을 때 바꿀 수 있음 / 가상 클래스 셀렉터*/
     background-color: white;
     color: lightsalmon;
 }
@@ -76,8 +85,10 @@ h1{
    background-color: #ffefd5 ;
    color: lightcoral;
    padding: 15px;
-   margin: 20px;
+   margin: 0px;
+   width: auto;
 }
+
 
 #a1{
     display: flex;
@@ -99,9 +110,47 @@ h1{
 }
 
 
-#a1{
+#a1{ /*id값을 셀렉터로 잡을 때 #id값 !!*/
     background-color: #fffafa;
 }
+#a2 .info1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: lightcoral;
+    margin: 15px;
+    
+}
+
+#a3 .info2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: lightcoral;
+    margin: 15px;
+    
+}
+
+#a4 .info3{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: lightcoral;
+    margin: 15px;
+    
+}
+
+.icon{ /*아이콘 안뜸*/
+    margin: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    text-decoration: none;
+    color: lightcoral;
+
+  }
 /*
 .c2 {
     /*class를 셀렉터로 잡을 때 .class명 !!
