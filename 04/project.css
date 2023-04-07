@@ -1,0 +1,101 @@
+* {
+    background-color: #5f9ea0;
+}
+
+
+
+header h1 {
+    color: #2f4f4f;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+header h3 {
+    color: #f5fffa;
+    margin: 10px;
+    font-size: small;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color: #33495a;
+
+}
+
+#class {
+    color: #536472;
+    margin-right: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#but button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    font-size: medium;
+    background-color: #536472;
+    border: 0px;
+    border-radius: 10%;
+    color: #8fbc8f;
+    margin-left: 10%;
+}
+section mark {
+    color: #8fbc8f;
+    background-color: #2f4f4f;
+}
+
+section p {
+    color: #f5fffa;
+}
+
+article {
+    background-color: #2f4f4f;
+}
+
+details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f4f4f;
+
+}
+
+
+article div {
+    display: flex;
+    background-color: #2f4f4f;
+
+}
+
+summary {
+    background-color: #2f4f4f;
+}
+
+summary em {
+    background-color: #2f4f4f;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin: 20px;
+    width: 25%;
+}
+
+article p {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    width: 70%;
+    background-color: #2f4f4f;
+    color: #8fbc8f;
+}
