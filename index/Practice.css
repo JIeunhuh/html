@@ -1,0 +1,68 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffdde5;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h2 {
+    background-color: #ddddff;
+    height: 10%;
+    padding: 3%;
+    margin-bottom: 5%;
+    box-sizing: content-box;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #785276;
+
+
+}
+
+article ul {
+    padding: 30px;
+    color: dimgray;
+    background-color: #ddffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-left: 21%;
+
+}
+
+a {
+    background-color: #ddffff;
+    font-size: 18px;
+    text-decoration: none;
+    color: dimgray;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddffff;
+    font-size: 18px;
+}
+
+a:hover {
+    /* :hover -> 마우스를 갖다댔을 때 바꿀 수 있음 / 가상 클래스 셀렉터*/
+    background-color: white;
+    color: #785276;
+}
+
+.icon {
+    /*아이콘 안뜸*/
+    margin: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    text-decoration: none;
+    color: lightcoral;
+    margin-left: 45%;
+
+}

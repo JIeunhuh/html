@@ -18,18 +18,28 @@ header h3 {
 }
 
 nav {
+
+    padding: 8px;
+    background-color: #33495a;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px;
-    background-color: #33495a;
-
 }
 
+
+#nav ul{
+background-color: #33495a;
+}
+nav li{
+    background-color: #33495a;
+}
+u{
+    background-color: #33495a;
+}
 #class {
     color: #536472;
-    margin-right: 30%;
     display: flex;
+    margin-right: 30%;
     justify-content: center;
     align-items: center;
 }
