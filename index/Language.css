@@ -21,6 +21,12 @@ h2{
 
 
 }
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #a2{
     
  
@@ -31,7 +37,7 @@ h2{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 28%;
+       
         font-size: 30px;
         margin-top: 5%;
         color: #785276;
@@ -48,14 +54,20 @@ article ul {
     padding: 30px;
     color:  dimgray;
     background-color: #ddffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    
 
 }
 article li{
     background-color: #ddffff;
     font-size: 18px;
+    display: flex;
+
 }
-.icon { /*아이콘 안뜸*/
+.icon { 
     margin: 30px;
     padding: 0px;
     display: flex;
@@ -63,7 +75,9 @@ article li{
     align-items: center;
     width: 10%;
     text-decoration: none;
-    color: lightcoral;
     margin-left: 45%;
 
+  }
+  a{
+    color: dimgray;
   }

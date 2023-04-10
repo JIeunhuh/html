@@ -22,7 +22,11 @@ h2 {
 
 
 }
-
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 article ul {
     padding: 30px;
     color: dimgray;
