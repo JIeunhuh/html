@@ -7,17 +7,21 @@
     height: 100%;
 }
 
-.c1 {
+body div {
     display: flex;
     flex-direction: row;
+   
 }
 
+#menu{
+    width: 15%;
+}
 h1 {
-    font-size: 90px;
+    font-size: 100px;
     display: flex;
     justify-content: right;
     align-items: center;
-    margin: 25px;
+    margin: 60px;
     font-weight: bold;
     color: #333333;
     box-sizing: content-box;
@@ -67,7 +71,7 @@ a {
 
 
 a:hover,
-li:hover {
+#menu:hover {
     /* :hover -> 마우스를 갖다댔을 때 바꿀 수 있음 / 가상 클래스 셀렉터*/
     background-color: white;
     color: #ddbbc3;
