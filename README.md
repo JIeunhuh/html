@@ -1,5 +1,5 @@
 # K-digital 3기 Front-End 수업
-#### https://jieunhuh.github.io/htmlcss/
+#### https://jieunhuh.github.io/k3_htmlcss/
 
 + 23.04.10 : 자기소개 페이지 만들기 
 + 23.04.07 : css 활용(pico.css 프레임워크 활용해서 페이지 만들기)
